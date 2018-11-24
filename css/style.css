@@ -709,8 +709,7 @@ body {
   z-index: 1500;
   opacity: 0;
   width: 0;
-  transition: all .8s;
-  visibility: hidden; }
+  transition: all .8s; }
 
 .navigation__list {
   position: absolute;
@@ -747,7 +746,6 @@ body {
   transform: scale(80); }
 
 .navigation__checkbox:checked ~ .navigation__nav {
-  visibility: visible;
   opacity: 1;
   width: 100%; }
 
