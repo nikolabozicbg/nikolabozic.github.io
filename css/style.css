@@ -155,7 +155,16 @@ body {
   font-size: 3rem;
   color: #fff;
   font-weight: 300;
-  animation: moveInRight 1s ease-out; }
+  animation: moveInRight 1s ease-out;
+  /* 900px */
+  /* 600px */ }
+  @media (max-width: 56.2em) {
+    .heading-paragraph {
+      font-size: 2.5 rem; } }
+  @media (max-width: 37.5em) {
+    .heading-paragraph {
+      font-size: 2rem;
+      text-align: center; } }
   .heading-paragraph--secondary {
     text-transform: uppercase;
     color: white;
@@ -205,7 +214,7 @@ body {
     /* 600px */ }
     @media (max-width: 56.2em) {
       .heading-secondary__headline {
-        font-size: 2.5 rem; } }
+        font-size: 2.5rem; } }
     @media (max-width: 37.5em) {
       .heading-secondary__headline {
         font-size: 2.5rem; } }
@@ -713,11 +722,11 @@ body {
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0;
+  left: -11.5rem;
   z-index: 1500;
   opacity: 0;
   width: 0;
-  transition: all .8s; }
+  transition: all .4s; }
 
 .navigation__list {
   position: absolute;
